@@ -1,0 +1,6 @@
+environment:
+  gateway: "127.0.0.1:8080"
+  enable_tracing: false
+  enable_hmac: true
+  read_timeout: "60s" # Maximum time to read HTTP request
+  write_timeout: "60s" # Maximum time to write HTTP response
