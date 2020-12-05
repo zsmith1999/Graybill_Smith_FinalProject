@@ -1,0 +1,11 @@
+Links to the Docker images that are pulled when the functions are deployed:
+  
+  func1:
+  https://hub.docker.com/repository/docker/bcg36/func1
+  
+  func2:
+  https://hub.docker.com/repository/docker/bcg36/func2
+  
+  fake-storage:
+  https://hub.docker.com/repository/docker/bcg36/fake-storage
+  
