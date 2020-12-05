@@ -1,0 +1,27 @@
+Commands used to create build and deploy a function on OpenFaas:
+
+1. Create a function directory, handler file, and templates folder:
+   faas-cli new <function-name> --lang <language-choice>
+      
+2. Edit the handler file to hold the code that you would like
+
+3. Edit the .yml function file to contain the configurations that you need
+      - Make sure to set your gateway to localhost:8080 or 127.0.0.1.8080
+      - Be sure to add this if if is a faas-flow function 
+        environment_file:
+            - flow.yml
+
+4. In the templates folder execute this command if you function is based on faas-flow:
+   faas template pull https://github.com/s8sg/faas-flow
+   
+3. Build the Function
+   faas build -f <function name>.yml
+   
+4. Deploy the function:
+   faas deploy -f <function-name>.yml --gateway 127.0.0.1:8080
+   
+5. Go to the external IP of you VM instance and port 8080 and use the portal to invike your function
+ 
+
+
+   
