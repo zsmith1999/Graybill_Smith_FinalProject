@@ -1,6 +1,6 @@
 # Graybill_Smith_FinalProject
 
-Contained in this repository are the configurations, steps, code, and other files to replicate what was set up for our final project. Other files used in the system such as the faas-flow chaining functions and their handlers can be found at: https://github.com/faasflow/faas-flow-example
+Contained in this repository are the configurations, steps, code, and other files to replicate what was set up for our final project. Faas-flow chaining functions and their handlers were taken from: https://github.com/faasflow/faas-flow-example
 
 The following files are included:
 
